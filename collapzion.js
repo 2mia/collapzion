@@ -80,9 +80,9 @@
                 $("._child_collapzion" ).css( {'transform':'translate3d(0, 0%, 0)'} );
                 $(this).parent().find('ul._child_collapzion').remove();
                 _element.css({
-                    '-webkit-transform': 'rotate(44deg)',
-                    '-moz-transform': 'rotate(44deg)',
-                    'transform': 'rotate(44deg)',
+                    '-webkit-transform': 'rotate(0deg)',
+                    '-moz-transform': 'rotate(0deg)',
+                    'transform': 'rotate(0deg)',
                 });
                 _element.removeClass('_open');
                 _element.addClass('_close');                
