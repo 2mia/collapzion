@@ -32,7 +32,7 @@ a._collapz_parant {
     -webkit-transition: -webkit-transform .1s linear 0ms;
     -moz-transition: -moz-transform .1s linear 0ms;
     transition: transform .1s linear 0ms;
-    transform: rotate(44deg);
+    transform: rotate(0); /*44deg*/
 }
 a._collapz_parant._close {
     background-color: #e45353;
