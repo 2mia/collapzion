@@ -13,7 +13,7 @@
 
  */
 a._collapz_parant._close:after, a._collapz_parant._open:after {
-    content: "\E5CD";
+    content: "\E0C9";
     font-family: 'Material Icons';
     font-size: 30px;
     position: relative;
