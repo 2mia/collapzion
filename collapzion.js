@@ -50,6 +50,7 @@
             _base.css(_settings._pos);
             if ($("._collapz_parant").length == 0){
                _base.append('<a style="background-color:'+_settings._main_btn_color+'" href="javascript:void(0)" class="_col_shadow _collapz_parant _close"></a>');
+            }else{
                $('#'+this.attr('id')+ ' a._collapz_parant').attr('onclick','').unbind('click');
             }
             $('#'+this.attr('id')+ ' a._collapz_parant').on('click',function(){
